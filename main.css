@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body > header{
+    background-color: grey;
+    padding: 16px 0;
+    color: aliceblue;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a{
+    color: #f2eaea;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img{
+    /*height: 180px;*/
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section{
+    padding: 16px 0;
+}
+
+section h2, .articles article {
+    margin-bottom: 16px;
+}
+
+.articles article{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a{
+    background-color: blue;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+    padding: 10px;
+}
+
+.articles article a:hover{
+    text-decoration: underline;
+}
+
+.articles article p, .articles article a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3{
+    font-size: 24px;
+}
+
+section h2{
+    font-size: 38px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3{
+    margin: 7px auto;
+}
+
+#sports{
+    background-color: rgb(204, 238, 204);
+}
+
+#sports .articles article a {
+    background-color: rgb(86, 239, 40);
+}
+
+#economy{
+    background-color: rgb(227, 238, 126);
+}
+
+#economy .articles article a {
+    background-color: rgb(242, 172, 8);
+}
+
+#entertainment{
+    background-color: rgb(150, 136, 241);
+}
+
+#entertainment .articles article a {
+    background-color: rgb(51, 67, 236);
+}
+
+#tecnology{
+    background-color: rgb(243, 151, 81);
+}
+
+#tecnology .articles article a {
+    background-color: rgb(246, 97, 28);
+}
+
+h1{
+    margin-left: 10px;
+}
